@@ -1,0 +1,5 @@
+train (t-8173fer63sq9sudutmg2yexo5) {
+  utterance ("[g:Cartoon] show me cartoons about (programming)[v:Keyword]")
+  plan (Y2BhkCrISaxML8ovzUvRS04sKsnPz9NzhtAMkljkilMTi5IzGKSxaitJTc8vqsRqpndqZXl+UQoDMwMjAxOQZADSIAgBTEAMFAMA)
+  last-modified (1596348481944)
+}

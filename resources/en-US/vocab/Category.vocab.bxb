@@ -1,5 +1,4 @@
 vocab(Category) {
   "DOGS" {"dog", "dogs"}
   "CATS" {"cat", "cats"}
-  "PROGRAMMING" {"programming"}
 }
