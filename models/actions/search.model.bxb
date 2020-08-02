@@ -1,0 +1,19 @@
+action (search) {
+  type (Search)
+  description (Search a cartoon)
+  collect {
+    input (keyword) {
+      type (Keyword)
+      min (Optional) max (One)
+    }
+    input (category) {
+      type (Category)
+      min (Required) max (One)
+    }
+    input (author) {
+      type (Author)
+      min (Optional) max (One)
+    }
+  }
+  output (Cartoon)
+}

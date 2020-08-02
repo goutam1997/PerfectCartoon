@@ -1,0 +1,14 @@
+layout {
+  match: Cartoon (this)
+  mode (Summary)
+
+  content {
+    section {
+      content {
+        image {
+          url("#{value (this.imgUrl)}")
+        }
+      }
+    }
+  }
+}

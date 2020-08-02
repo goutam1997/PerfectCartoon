@@ -1,0 +1,6 @@
+enum (Category) {
+  description (__DESCRIPTION__)
+  symbol (CATS)
+  symbol (DOGS)
+  symbol (PROGRAMMING)
+}

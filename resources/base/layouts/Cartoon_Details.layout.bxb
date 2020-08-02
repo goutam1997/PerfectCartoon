@@ -1,0 +1,26 @@
+layout {
+  match: Cartoon (this)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        image {
+          url("#{value (this.imgUrl)}")
+        }
+        paragraph {
+          value ("[#{value(this.title)}]")
+          style (Title_L)
+        }
+        paragraph {
+          value ("[by #{value(this.author)}]")
+          style (Title_M)
+        }
+        paragraph {
+          value ("[See more on #{value(this.pageUrl)}]")
+          style (Title_S)
+        }
+      }
+    }
+  }
+}
