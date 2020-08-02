@@ -1,0 +1,19 @@
+layout {
+  match: Survey (this)
+  mode (Summary)
+  
+  content {
+    section {
+      content {
+        paragraph {
+          value ("Your Name is: #{value(this.name)}")
+          style (Title_L)
+        }
+        paragraph {
+          value ("Your Liking for this capsule is: #{value(this.like)}")
+          style (Title_L)
+        }
+      }
+    }
+  }
+}

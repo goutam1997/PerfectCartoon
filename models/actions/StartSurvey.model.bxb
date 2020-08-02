@@ -1,0 +1,15 @@
+action (StartSurvey) {
+  type(Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (name) {
+      type (Name)
+      min (Required) max (One)
+    }
+    input (like) {
+      type (Like)
+      min (Required) max (One)
+    }
+  }
+  output (Survey)
+}

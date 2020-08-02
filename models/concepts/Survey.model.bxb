@@ -1,0 +1,11 @@
+structure (Survey) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (Name)
+    min (Required) max (One)
+  }
+  property (like) {
+    type (Like)
+    min (Required) max (One)
+  }
+}

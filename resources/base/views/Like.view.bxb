@@ -1,0 +1,20 @@
+input-view {
+  match:Like
+  message("Do you like this capsule?")
+  render {
+    form {
+      elements {
+        checkbox {
+          id(like)
+          type(Like)
+          primary-text("Yes I like the capsule!!")
+          value(true)
+        }
+      }
+      on-submit {
+        goal:Like
+        value:viv.core.FormElement(Like)
+      }
+    }
+  }
+}

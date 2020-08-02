@@ -1,3 +1,8 @@
+train (t-akoaj281ams46da5v1791gjil) {
+  utterance ("[g:Name:prompt] My name is (Suman Roy)[v:Name]")
+  plan (Y2BiEC/ISaxML8ovzUvRS04sKsnPz9PzS8xNxS3BCIQMDDxAzATEQDYA)
+  last-modified (1596385295573)
+}
 train (t-aqqolwktloigo1yefwb1hbep1) {
   utterance ("[g:Cartoon] find (dog)[v:Category:DOGS] cartoons")
   plan (Y2BmkCrISaxML8ovzUvRS04sKsnPz9NzhtAMkljkilMTi5IzGKSxaitJTc8vqmRgYmAEYgYgycgAAkwQDAA=)
