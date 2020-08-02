@@ -1,0 +1,5 @@
+train (t-608dzf5wglb8oe75pt61cz1ld) {
+  utterance ("[g:Cartoon] show me (cat)[v:Category:CATS] cartoons by (John)[v:Author]")
+  plan (Y2BhkCrISaxML8ovzUvRS04sKsnPz9NzhtAMkljkilMTi5IzsEo5lpZk5BcxSGM1sSQ1Pb+okoGZgZGBCUgyAGkQhAAQHywKAA==)
+  last-modified (1596349784783)
+}
