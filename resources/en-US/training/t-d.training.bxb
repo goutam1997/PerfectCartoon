@@ -1,4 +1,5 @@
 train (t-d118sc6cb046rz9npp8x4boiw) {
-  utterance (show me cartoons by Harry Bliss)
-  last-modified (1596349480614)
+  utterance ("[g:Cartoon] show me cartoons by (Harry Bliss)[v:Author]")
+  plan (Y2BmkCrISaxML8ovzUvRS04sKsnPz9NzhtAMkljkilMTi5IzsEo5lpZk5BcxMDEwAjEDkGRkAAEmCAYA)
+  last-modified (1596349720967)
 }
