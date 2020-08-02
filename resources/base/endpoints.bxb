@@ -1,9 +1,12 @@
 endpoints {
   action-endpoints {
-    // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
     action-endpoint (search) {
       accepted-inputs (keyword, category, author)
       local-endpoint (search.js)
+    }
+    action-endpoint (StartSurvey) {
+      accepted-inputs (name, like)
+      local-endpoint (StartSurvey.js)
     }
   }
 }
